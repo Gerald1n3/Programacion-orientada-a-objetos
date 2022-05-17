@@ -1,0 +1,6 @@
+/Encapsulamiento (Forma profesor)
+$saludo=new Operaciones();
+$saludo->setNum1($_POST['num1']);
+$num1=$saludo->getNum1();
+$saludo->setNum2($_POST['num2']);
+$num=$saludo->getNum2();
